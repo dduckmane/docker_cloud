@@ -101,7 +101,7 @@ services:
     ports:
       - "9090:9090"
     volumes:
-      - /Users/minsungkim/monitoring_grafa/prometheus-2.43.0.darwin-amd64/prometheus.yml:/etc/prometheus/prometheus.yml
+      - /usr/local/docker_compose_file/docker_cloud/prometheus.yml:/etc/prometheus/prometheus.yml
     networks: 
       my-network:
 
